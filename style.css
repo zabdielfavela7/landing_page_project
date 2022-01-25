@@ -8,7 +8,7 @@ body{
     flex-direction: column;    
 }
 
-.header{
+.container .header{
     background-color: #1F2937;
     height: 80px;
     display: flex;
@@ -77,7 +77,6 @@ body{
 }
 
 button{
-
     border: none;
     border-radius: 8px;
    padding: 10px;
@@ -87,4 +86,43 @@ button{
    color: white;
    font-size: 20px;
    font-weight: 550;
+}
+
+.information{
+    background-color: white;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.information .header{
+    background-color: white;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+.cards-section{
+    display: flex;
+    padding: 40px;
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p{
+    text-align: center;
+}
+
+.card img{
+    height: 70%;
+    width: auto;
+    border-radius: 7px;
+    border: 5px solid #1d5cc2;
 }
