@@ -150,3 +150,31 @@ button{
     text-align: right;
     margin-right: 50px;
 }
+
+.action{
+    background-color: white;
+    padding: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.call-box{
+    color: white;
+    background-color: #1d5cc2;
+    display: flex;
+    padding: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+}
+
+.call-box p, .call-box h2{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+
+button{
+    border: 2px solid white;
+    margin-left: auto;
+}
