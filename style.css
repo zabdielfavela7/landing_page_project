@@ -131,8 +131,8 @@ button{
 
 .testimonial{
     background-color: #ebebe0;   
-    color: #1f2937;
-    font-size: 36px;
+    color: #323c4b;
+    font-size: 32px;
     font-style: italic;
     font-weight: lighter;
     padding:60px;
@@ -142,7 +142,7 @@ button{
 }
 
 .testimonial .author{
-    color: black;
+    color: #1f2937;
     font-size: 23px;
     font-style: normal;
     font-weight: bold;
@@ -163,8 +163,8 @@ button{
     background-color: #1d5cc2;
     display: flex;
     padding: 120px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-radius: 15px;
 }
 
